@@ -55,9 +55,7 @@ dependencies {
     implementation(libs.androidx.credentials)
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.googleid)
-    dependencies {
-        implementation("androidx.compose.runtime:runtime-livedata:1.10.0")
-    }
+    implementation("androidx.compose.runtime:runtime-livedata:1.10.0")
     implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
