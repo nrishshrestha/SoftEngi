@@ -41,9 +41,9 @@ class ProfileActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
 
-                }
-            }
         }
+    }
+}
 @Composable
 fun ProfileBody() {
     Scaffold { padding ->
@@ -129,7 +129,7 @@ fun ProfileBody() {
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(8.dp),
 
-            ) {
+                ) {
                 Text("Button")
             }
             Row(
@@ -147,7 +147,7 @@ fun ProfileBody() {
                 ) {
                     Text("Follow",
                         fontWeight = FontWeight.Bold)
-                    }
+                }
                 OutlinedButton(onClick = {},
                     shape = RoundedCornerShape(8.dp),) {
                     Text("Message",
@@ -155,7 +155,7 @@ fun ProfileBody() {
                 }
                 OutlinedButton(onClick = {},
                     shape = RoundedCornerShape(8.dp),
-                    ) {
+                ) {
                     Text("Email",
                         fontWeight = FontWeight.Bold)
                 }
@@ -166,7 +166,7 @@ fun ProfileBody() {
                         painter = painterResource(
                             id = R.drawable.baseline_keyboard_arrow_down_24
                         ),
-                    contentDescription = null
+                        contentDescription = null
                     )
                 }
             }

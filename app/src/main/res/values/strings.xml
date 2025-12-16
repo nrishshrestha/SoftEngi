@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AI37B</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_spotifity">SpotifityActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_card_app">CardAppActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="title_activity_add_product_acitivity">AddProductAcitivity</string>
 </resources>
