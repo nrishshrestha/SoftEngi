@@ -186,11 +186,11 @@ fun AddProductBody() {
                 keyBoardController?.hide()
                 if (productName.isNotBlank() && productQuantity.isNotBlank() && productDescription.isNotBlank() && productPrice.isNotBlank()) {
                     val product = ProductModel(
-                        productName = productName,
-                        productDescription = productDescription,
-                        productPrice = productPrice,
-                        productQuantity = productQuantity,
-                        productCategory = productCategory
+                        productId = "",
+                        name = productName,
+                        price = productPrice.toDouble(),
+                        description = productDescription,
+                        categoryId = productCategory
                     )
                     productViewModel.addProduct(product) { success, message ->
                         if (success) {

@@ -13,7 +13,7 @@ import com.google.firebase.database.ValueEventListener
 class ProductRepoImpl : ProductRepository{
     val database: FirebaseDatabase = FirebaseDatabase.getInstance()
 
-    val ref: DatabaseReference = database.getReference("products")
+    val ref: DatabaseReference = database.getReference("Products")
 
     override fun addProduct(
         model: ProductModel,
